@@ -1,10 +1,11 @@
 import { Header } from '../sections/Header';
+import { Intro } from '../sections/Intro';
 
 export const Home = () => {
   return (
-    <div>
+    <>
       <Header />
-      <p>Hello There</p>
-    </div>
+      <Intro />
+    </>
   );
 };
