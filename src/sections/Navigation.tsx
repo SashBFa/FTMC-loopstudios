@@ -9,7 +9,7 @@ export type MenuType = {
   }[];
 };
 
-const navList = [
+export const navList = [
   { title: 'About', link: '/' },
   { title: 'Careers', link: '/' },
   { title: 'Events', link: '/' },

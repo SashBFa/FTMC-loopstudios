@@ -43,13 +43,13 @@ const creationList = [
 
 export const Creation = () => {
   return (
-    <section className="max-w-5xl w-full mx-auto px-6 my-16 lg:my-0">
+    <section className="max-w-5xl w-full mx-auto px-6 my-16 lg:my-0 lg:px-0">
       <div className="mb-12 lg:flex lg:justify-between lg:items-center">
         <h3 className="uppercase text-4xl font-extralight text-center lg:text-left lg:text-5xl">
           our creations
         </h3>
 
-        <button className="bg-black text-white py-2 px-12 uppercase font-semibold tracking-widest hidden lg:block ">
+        <button className="border-2 border-black hover:bg-black hover:text-white py-2 px-12 uppercase font-semibold tracking-widest hidden lg:block ">
           See all
         </button>
       </div>
@@ -73,7 +73,7 @@ export const Creation = () => {
           </div>
         ))}
 
-        <button className="border-2 border-black mx-auto py-2 px-12 uppercase font-semibold tracking-widest lg:hidden">
+        <button className="border-2 border-black hover:bg-black hover:text-white mx-auto py-2 px-12 uppercase font-semibold tracking-widest lg:hidden">
           See all
         </button>
       </div>
