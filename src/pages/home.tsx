@@ -1,3 +1,4 @@
+import { Creation } from '../sections/Creation';
 import { Header } from '../sections/Header';
 import { Intro } from '../sections/Intro';
 
@@ -6,6 +7,7 @@ export const Home = () => {
     <>
       <Header />
       <Intro />
+      <Creation />
     </>
   );
 };

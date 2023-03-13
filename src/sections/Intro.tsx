@@ -1,13 +1,13 @@
 export const Intro = () => {
   return (
-    <section className="max-w-7xl w-full mx-auto px-6 mt-20 lg:px-0 lg:mt-32">
+    <section className="max-w-5xl w-full mx-auto px-6 mt-20 lg:px-0 lg:mt-32">
       <div className="hidden lg:block">
         <img src="./images/desktop/image-interactive.jpg" alt="men with vr" />
       </div>
       <div className="lg:hidden">
         <img src="./images/mobile/image-interactive.jpg" alt="men with vr" />
       </div>
-      <div className="bg-white py-8 lg:-translate-y-full lg:translate-x-full lg:max-w-xl lg:pb-0 lg:px-20 lg:pt-16">
+      <div className="bg-white py-8 lg:-translate-y-full lg:translate-x-full lg:max-w-xl lg:pb-0 lg:px-20">
         <h3 className="uppercase text-4xl font-extralight text-center lg:text-left lg:text-5xl">
           the leader in interactive vr
         </h3>
